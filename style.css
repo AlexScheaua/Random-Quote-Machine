@@ -1,0 +1,146 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+:focus {
+outline: none;
+}
+
+/* codul meu */
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+	flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: impact;
+}
+
+#quote-box {
+  width: 80vh;
+  height: 35vh;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#new-quote {
+  margin: 5vh 0vh 2vh;
+  width: 15vh;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+#new-quote:hover {
+	opacity: 0.7;
+}
+
+#tweet-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5.5vh;
+  height: 2.4vh;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  text-decoration: none;
+  font-family: arial;
+  font-size: 14px;
+}
+
+#tweet-quote:hover {
+	opacity: 0.7;
+}
+
+#text {
+  padding: 3vh;
+  font-size: 2.3vh;
+  font-style: italic;
+  letter-spacing: 3px;
+
+}
+
+.addwrapper {
+	width: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #444;
+}
+
+#add-quote {
+  margin: 0.2vh;
+  width: 15vh;
+  height: 3vh;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+#add-quote:hover {
+	opacity: 0.7;
+}
+
+#addText, #addAuthor, #addColor{
+	margin: 0.1vh;
+	border: none;
+}
