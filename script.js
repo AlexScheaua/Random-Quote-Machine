@@ -27,5 +27,4 @@ var quotes = [];
     $(".wrapper, #new-quote, #tweet-quote, #add-quote, #addText, #addAuthor, #addColor").css("background-color", quotes[i].color);
     $("#text, #author").css("color", quotes[i].color);
   }
-
 });
